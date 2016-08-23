@@ -14,13 +14,14 @@ $ npm install fanburst-api
 
 ## Usage
 ```
-var FanburstApi = require('fanburst-api')();
+var FanburstApi = require('fanburst-api');
+var fanburstApi = new FanburstApi();
 ```
 
 <b>Note: You can get ```accessToken``` with help [passport-fanburst](https://github.com/shabanovtg/passport-fanburst)</b>
 ## Get user profile
 ```
-FanburstApi.me(accessToken, function(err, result) {
+fanburstApi.me(accessToken, function(err, result) {
   if (err) {
     //...
   } else {
@@ -34,7 +35,7 @@ FanburstApi.me(accessToken, function(err, result) {
 ### Contains
 
 ```
-FanburstApi.followingContains(followingId, accessToken, function(err, result) {
+fanburstApi.followingContains(followingId, accessToken, function(err, result) {
   if (err) {
     //...
   } else {
@@ -46,7 +47,7 @@ FanburstApi.followingContains(followingId, accessToken, function(err, result) {
 ### Add
 
 ```
-FanburstApi.followingAdd(followingId, accessToken, function(err, result) {
+fanburstApi.followingAdd(followingId, accessToken, function(err, result) {
   if (err) {
     //...
   } else {
