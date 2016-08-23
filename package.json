@@ -1,6 +1,6 @@
 {
   "name": "fanburst-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fanburst Api for Node.js",
   "keywords": [
     "fanburst",
@@ -20,14 +20,16 @@
     "url": "https://github.com/shabanovtg/fanburst-api"
   },
   "author": {
-    "name" : "Igor Shabanov",
+    "name": "Igor Shabanov",
     "email": "shabanovtg@gmail.com",
-    "url" : "http://shabanovtg.ru"
+    "url": "http://shabanovtg.ru"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "dependencies": {
     "request-promise": "^3.0.0"
   }
